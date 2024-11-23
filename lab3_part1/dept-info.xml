@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<company>
+    <companyNo>C01</companyNo>
+    <companyName>SHYLONAMYLO</companyName>
+    <location>MINSK</location>
+    <departments>
+        <department>
+            <deptNo>D01</deptNo>
+            <deptName>ACCOUNTING</deptName>
+            <location>MOSCOM</location>
+            <employees>
+                <employee>
+                    <empNo>E01</empNo>
+                    <empName>Bob</empName>
+                </employee>
+            </employees>
+        </department>
+        <department>
+            <deptNo>D02</deptNo>
+            <deptName>HR</deptName>
+            <location>MINSK</location>
+            <employees>
+                <employee>
+                    <empNo>E02</empNo>
+                    <empName>Alex</empName>
+                    <managerNo>E01</managerNo>
+                </employee>
+            </employees>
+        </department>
+        <department>
+            <deptNo>D03</deptNo>
+            <deptName>UI</deptName>
+            <location>MINSK</location>
+            <employees>
+                <employee>
+                    <empNo>E03</empNo>
+                    <empName>Steve</empName>
+                </employee>
+            </employees>
+        </department>
+    </departments>
+</company>

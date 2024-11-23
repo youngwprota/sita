@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+    <customer>
+        <name>John Doe</name>
+        <email>john.doe@example.com</email>
+    </customer>
+    <items>
+        <item id="1">
+            <name>Apples</name>
+            <quantity>5</quantity>
+            <price>2.5</price>
+        </item>
+        <item id="2">
+            <name>Bananas</name>
+            <quantity>3</quantity>
+            <price>1.5</price>
+        </item>
+    </items>
+    <total>14.0</total>
+    <orderDate>2024-10-22</orderDate>
+</order>

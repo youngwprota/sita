@@ -1,0 +1,19 @@
+<project name="sita" default="deploy" basedir=".">
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+    
+    <target name="compile" depends="clean">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
+    
+    <target name="package" depends="compile">
+        <mkdir dir="dist"/>
+        <jar destfile="dist/MyApp.jar" basedir="build/classes"/>
+    </target>
+    
+    <target name="deploy" depends="package">
+        <echo message="Deploying MyApp..."/>
+    </target>
+</project>
